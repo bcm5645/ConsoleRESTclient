@@ -20,19 +20,19 @@ namespace ConsoleRESTclient
 	class ResultSubject
 	{
 		[JsonPropertyName("name")]
-		public string name { get; set; }
+		public string Name { get; set; }
 
 		[JsonPropertyName("nip")]
-		public string nip { get; set; }
+		public string NIP { get; set; }
 
 		[JsonPropertyName("statusVat")]
-		public string statusVat { get; set; }
+		public string VATstatus { get; set; }
 
 		[JsonPropertyName("regon")]
-		public string regon { get; set; }
+		public string REGON { get; set; }
 
 		[JsonPropertyName("workingAddress")]
-		public string workingAddress { get; set; }
+		public string WorkingAddress { get; set; }
 	}
 }
 

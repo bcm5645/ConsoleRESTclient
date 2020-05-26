@@ -59,11 +59,11 @@ namespace ConsoleRESTclient
 			var wl = await JsonSerializer.DeserializeAsync<VatWhiletList>(await stringTask);
 			if (wl != null)
 			{
-				Console.WriteLine(wl.Result.resultSubject.name);
-				Console.WriteLine(wl.Result.resultSubject.workingAddress);
-				Console.WriteLine(wl.Result.resultSubject.nip);
-				Console.WriteLine(wl.Result.resultSubject.regon);
-				Console.WriteLine(wl.Result.resultSubject.statusVat);
+				Console.WriteLine(wl.Result.resultSubject.Name);
+				Console.WriteLine(wl.Result.resultSubject.WorkingAddress);
+				Console.WriteLine(wl.Result.resultSubject.NIP);
+				Console.WriteLine(wl.Result.resultSubject.REGON);
+				Console.WriteLine(wl.Result.resultSubject.VATstatus);
 			}
 		}
 	}
